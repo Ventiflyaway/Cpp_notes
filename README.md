@@ -1,5 +1,7 @@
 # cpp-algo-handbook
 
+Common data structures usage for personal memorizing.
+
 A compact C++ algorithm handbook for STL usage, data structure templates, common algorithms, and coding tricks.
 
 ## Structure
