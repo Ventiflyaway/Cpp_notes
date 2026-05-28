@@ -37,6 +37,8 @@ public:
 
 常见写法：
 
+struct：自定义数据类型（自己造一个类型），把几个相关的数据打包成一个整体
+
 ```cpp
 struct Node {
     int val;
