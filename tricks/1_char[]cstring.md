@@ -6,6 +6,9 @@ std::string s1 = "hello", s2 = "hello";
 if (s1 == s2) { /* 相等 */ }
 ```
 
+#### 注意：=：赋值（assignment）
+==：比较是否相等（comparison）
+
 ### 2.compare() 方法
 ```text
 if (s1.compare(s2) == 0) { /* 相等 */ }
