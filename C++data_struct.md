@@ -23,6 +23,14 @@ using namespace std;
 #include <array>
 #include <algorithm>
 ```
+## 0. 变量
+### C++ 不会自动给局部变量赋初值
+只是在栈（stack）上给 x 分配了一些字节空间
+- 字节里原来是什么就还是什么
+
+自动初始化成 0 会多一次写内存操作
+- C++ 的设计理念之一是：You don't pay for what you don't use
+### 全局变量、static变量会有初始值0
 
 ## 1. 函数 / 类基本框架
 
